@@ -8,15 +8,15 @@ p {
 }
 
 a {
-  color: ##4286f4;
+  color: #808080;
 }
 
 a:hover {
-  color: ##4286f4;
+  color: #808080;
 }
 
 .text-primary {
-  color: ##4286f4
+  color: #808080
  !important;
 }
 
@@ -66,31 +66,31 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #  color: #42dff4
+  background-color: #  color: #1a1a1a
 
 ;
-  border-color: #42dff4
+  border-color: #d9d9d9
 ;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #4d4d33 !important;
+  border-color: #d9d9d9 !important;
   color: white;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(128,128,128 0.5) !important;
 }
 
 ::-moz-selection {
-  background: #00cc99
+  background: #d9d9d9
 ;
   text-shadow: none;
 }
 
 ::selection {
-  background: #00cc99
+  background: #d9d9d9
 ;
   text-shadow: none;
 }
@@ -104,7 +104,8 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #4286f4;
+  background-color: #b8b894;
+;
 }
 
 #mainNav .navbar-toggler {
@@ -114,7 +115,8 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #4286f4
+  background-color: #b8b894;
+
 
 ;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -127,7 +129,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #4286f4;
+  color: #b8b894;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -140,7 +142,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #4286f4
+  color: #0d0d0d
 ;
 }
 
@@ -166,7 +168,8 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #061e44;
+    background-color: #b8b894;
+;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -219,7 +222,7 @@ header.masthead .intro-text .intro-heading {
   font-size: 50px;
   font-weight: 700;
   text-shadow: 0 0 5px black;
-  color: #4286f4
+  color: #b8b894
   line-height: 50px;
   margin-bottom: 25px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -272,7 +275,7 @@ header.masthead .intro-text .intro-heading {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(61, 135, 255, 0.9);
+  background: rgba(128,128,128 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -720,6 +723,6 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #00cc99
+  background-color: #b8b894
 ;
 }
